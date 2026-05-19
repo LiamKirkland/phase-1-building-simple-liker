@@ -4,8 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-function init() {
-  document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", () => {
   const likeBtns = document.getElementsByClassName("like-glyph")
   const errBanner = document.getElementById("modal")
   for (const btn of likeBtns) {
@@ -29,10 +28,6 @@ function init() {
     })
   }
 })
-}
-
-init()
-
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
 //------------------------------------------------------------------------------
